@@ -41,7 +41,7 @@ export default function Navigation() {
     <div className="navigation">
       <div className="logo">
         <img
-          src={`${process.env.PUBLIC_URL}./shared/logo.svg`}
+          src={`${process.env.PUBLIC_URL}/shared/logo.svg`}
           alt="logo"
           className="logoImg"
         />
