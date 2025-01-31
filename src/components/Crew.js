@@ -72,7 +72,7 @@ export default function Destination() {
           </div>
           <div className="crewImageContainer">
             <img
-              src={crews[selectedCrew].image}
+              src={`${process.env.PUBLIC_URL}/${crews[selectedCrew].image}`}
               className="crewImg"
               alt="crewImage"
             />

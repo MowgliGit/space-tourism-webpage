@@ -41,7 +41,7 @@ export default function Navigation() {
     <div className="navigation">
       <div className="logo">
         <img
-          src="/spaseTourismWebsite/shared/logo.svg"
+          src={`${process.env.PUBLIC_URL}./shared/logo.svg`}
           alt="logo"
           className="logoImg"
         />
@@ -51,7 +51,7 @@ export default function Navigation() {
           <div className="hamburgerMenu">
             <img
               className="hamburgerMenuIcon"
-              src="/spaseTourismWebsite/shared/icon-hamburger.svg"
+              src={`${process.env.PUBLIC_URL}./shared/icon-hamburger.svg`}
               alt="hamburgerMenu"
             />
           </div>
@@ -59,7 +59,7 @@ export default function Navigation() {
           <div className="hamburgerClose">
             <img
               className="hamburgerCloseIcon"
-              src="/spaseTourismWebsite/shared/icon-close.svg"
+              src={`${process.env.PUBLIC_URL}./shared/icon-close.svg`}
               alt="hamburgerMenu"
             />
           </div>

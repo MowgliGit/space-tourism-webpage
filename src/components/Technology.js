@@ -84,7 +84,7 @@ export default function Technology() {
 
           <div className="techImageContainer">
             <img
-              src={technology[selectedTechnology].img}
+              src={`${process.env.PUBLIC_URL}/${technology[selectedTechnology].img}`}
               className="techImg"
               alt="image for technology"
             />

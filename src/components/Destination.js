@@ -60,11 +60,11 @@ export default function Destination() {
           <div className="imageContainer">
             <div className="destinationImageBox halfCircle">
               <img
-                src={destinations[selectedDestination].image}
+                src={`${process.env.PUBLIC_URL}/${destinations[selectedDestination].image}`}
                 className="destinationImage"
                 alt={selectedDestination}
               />
-              <div class="halfBlackCircle"></div>
+              <div className="halfBlackCircle"></div>
             </div>
           </div>
 

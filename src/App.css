@@ -65,7 +65,7 @@ body {
   font-weight: 200;
 }
 .App {
-  max-width: 144rem;
+  max-width: 155rem;
   margin: 0 auto;
 }
 
@@ -174,7 +174,7 @@ body {
 }
 /* reusable classes */
 .section {
-  max-width: 120rem;
+  max-width: 135rem;
   margin: 0 auto;
   color: #ffffff;
 }
@@ -357,7 +357,7 @@ a:visited {
 }
 
 .sectionDestination {
-  padding: 1rem 6rem !important;
+  padding: 7rem 6rem !important;
   position: relative;
   z-index: 1;
 }
@@ -505,7 +505,7 @@ span {
   pointer-events: none;
 }
 .sectionCrew {
-  padding: 2rem 6rem !important;
+  padding: 8rem 6rem !important;
   position: relative;
   z-index: 1;
 }
@@ -521,7 +521,7 @@ span {
 .crewImg {
   width: 100%;
   object-fit: contain;
-  height: 45rem;
+  height: 46rem;
   justify-self: end !important;
   overflow: visible;
 }
@@ -613,7 +613,7 @@ span {
   max-width: 140rem;
   margin: 0 auto;
   position: relative;
-  padding: 2rem 0rem 3rem 15rem;
+  padding: 5rem 0rem 3rem 15rem;
 }
 .gridTechology {
   padding: 2rem 0rem 3rem 0rem;
