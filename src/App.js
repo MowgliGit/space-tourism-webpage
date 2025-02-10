@@ -8,7 +8,7 @@ import "./queries.css";
 
 function App() {
   return (
-    <Router basename="/spase-tourism">
+    <Router basename="/space-tourism-webpage">
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />

@@ -63,6 +63,8 @@ body {
   font-family: "Overpass", serif;
   overflow: none;
   font-weight: 200;
+  max-width: 155rem;
+  margin: 0 auto;
 }
 .App {
   max-width: 155rem;
