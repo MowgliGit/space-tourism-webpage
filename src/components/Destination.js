@@ -19,7 +19,7 @@ export default function Destination() {
       image: "./destination/image-mars.png",
       title: "Mars",
       description:
-        " Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!  ",
+        " Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It is two and a half times the size of Everest!  ",
       infDist: " Avg. distance ",
       infoTime: "Est. travel time ",
       infKm: "225 mil. km",
